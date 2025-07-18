@@ -1,0 +1,207 @@
+/* Custom CSS for Occlu-FER Dataset Website */
+
+/* Academic paper styling for code blocks */
+.highlight {
+    background-color: #f8f9fa;
+    border: 1px solid #e9ecef;
+    border-radius: 6px;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+/* BibTeX code block styling */
+pre code {
+    font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+    font-size: 0.9em;
+    line-height: 1.4;
+}
+
+/* Dataset statistics styling */
+.dataset-stats {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    margin: 2rem 0;
+}
+
+.dataset-stats h3 {
+    color: white;
+    margin-bottom: 1rem;
+}
+
+/* Feature cards */
+.feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.feature-card {
+    background: #ffffff;
+    border: 1px solid #e1e5e9;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.feature-card h4 {
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+}
+
+/* Contact information styling */
+.contact-info {
+    background: #f8f9fa;
+    border-left: 4px solid #007bff;
+    padding: 1rem 1.5rem;
+    margin: 1rem 0;
+    border-radius: 0 4px 4px 0;
+}
+
+.contact-person {
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.contact-person:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+.contact-person h4 {
+    color: #495057;
+    margin-bottom: 0.5rem;
+}
+
+.contact-person p {
+    margin: 0.25rem 0;
+    color: #6c757d;
+}
+
+/* Email and link styling */
+a[href^="mailto:"] {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a[href^="mailto:"]:hover {
+    text-decoration: underline;
+}
+
+/* Download page styling */
+.terms-box {
+    background: #fff3cd;
+    border: 1px solid #ffeaa7;
+    border-radius: 6px;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.terms-box h3 {
+    color: #856404;
+    margin-bottom: 1rem;
+}
+
+.application-box {
+    background: #d1ecf1;
+    border: 1px solid #bee5eb;
+    border-radius: 6px;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.application-box h3 {
+    color: #0c5460;
+    margin-bottom: 1rem;
+}
+
+/* File structure styling */
+.file-structure {
+    background: #f8f9fa;
+    border: 1px solid #e9ecef;
+    border-radius: 6px;
+    padding: 1rem;
+    font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+    font-size: 0.9em;
+    line-height: 1.6;
+    overflow-x: auto;
+}
+
+/* Citation styling */
+.citation-box {
+    background: #e7f3ff;
+    border: 1px solid #b3d9ff;
+    border-radius: 6px;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.citation-box h3 {
+    color: #004085;
+    margin-bottom: 1rem;
+}
+
+/* Responsive design improvements */
+@media (max-width: 768px) {
+    .feature-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .dataset-stats {
+        padding: 1.5rem;
+    }
+    
+    .contact-info,
+    .terms-box,
+    .application-box,
+    .citation-box {
+        padding: 1rem;
+    }
+}
+
+/* Dark mode support */
+[data-theme="dark"] .feature-card {
+    background: #1a1a1a;
+    border-color: #333;
+    color: #e0e0e0;
+}
+
+[data-theme="dark"] .feature-card h4 {
+    color: #ffffff;
+}
+
+[data-theme="dark"] .contact-info {
+    background: #2d3748;
+    border-left-color: #4299e1;
+}
+
+[data-theme="dark"] .terms-box {
+    background: #2d3748;
+    border-color: #4a5568;
+}
+
+[data-theme="dark"] .application-box {
+    background: #2d3748;
+    border-color: #4a5568;
+}
+
+[data-theme="dark"] .citation-box {
+    background: #2d3748;
+    border-color: #4a5568;
+}
+
+[data-theme="dark"] .file-structure {
+    background: #1a202c;
+    border-color: #4a5568;
+    color: #e2e8f0;
+}

@@ -1,0 +1,73 @@
+baseURL = 'https://your-username.github.io/Occlu-FER/'
+languageCode = 'en-us'
+title = 'Occlu-FER Dataset'
+theme = 'papermod'
+
+# Enable emoji support
+enableEmoji = true
+
+# Enable robots.txt generation
+enableRobotsTXT = true
+
+# Build settings
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+# Pagination
+[pagination]
+  pagerSize = 5
+
+# Menu configuration (simplified for single page)
+# [menu] - No menu needed for single page site
+
+# PaperMod theme parameters
+[params]
+  # Site info
+  description = "Occlu-FER: A Large-Scale Occluded Facial Expression Recognition Dataset"
+  author = "Research Team"
+
+  # Theme settings
+  defaultTheme = "light"
+  disableThemeToggle = false
+  ShowReadingTime = false
+  ShowShareButtons = false
+  ShowPostNavLinks = false
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = false
+  ShowRssButtonInSectionTermList = false
+  UseHugoToc = true
+  disableSpecial1stPost = false
+  disableScrollToTop = false
+  comments = false
+  hidemeta = false
+  hideSummary = false
+  showtoc = false
+  tocopen = false
+
+  # Home page settings
+  [params.homeInfoParams]
+    Title = "Occlu-FER Dataset"
+    Content = "A Large-Scale Occluded Facial Expression Recognition Dataset for Deep Learning Research"
+
+  # Social links (customize as needed)
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/Wenyuzhy"
+
+  [[params.socialIcons]]
+    name = "email"
+    url = "202522081112@std.uestc.edu.cn"
+
+# Markup settings
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    noClasses = false
+    codeFences = true
+    guessSyntax = true
+    lineNos = true
+    style = "github"
