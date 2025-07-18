@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Occlu-FER Dataset Website
 
 This repository contains the source code for the Occlu-FER dataset website, built with Hugo and the PaperMod theme. The website showcases a deep learning dataset for occluded facial expression recognition research.
@@ -95,3 +96,6 @@ The generated site will be in the `public/` directory.
 ---
 
 **Note**: The GitHub Actions workflow will automatically build and deploy your site when you push changes to the main branch.
+=======
+# Occlu-FER
+>>>>>>> 957bf6d319fb057d92d4b1c6348fad82835e76ba
