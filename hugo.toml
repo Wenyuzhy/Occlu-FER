@@ -1,4 +1,4 @@
-baseURL = 'https://your-username.github.io/Occlu-FER/'
+baseURL = 'https://wenyuzhy.github.io/Occlu-FER/'
 languageCode = 'en-us'
 title = 'Occlu-FER Dataset'
 theme = 'papermod'
@@ -46,10 +46,10 @@ buildExpired = false
   showtoc = false
   tocopen = false
 
-  # Home page settings
-  [params.homeInfoParams]
-    Title = "Occlu-FER Dataset"
-    Content = "A Large-Scale Occluded Facial Expression Recognition Dataset for Deep Learning Research"
+  # Home page settings - disable to show content/_index.md instead
+  # [params.homeInfoParams]
+  #   Title = "Occlu-FER Dataset"
+  #   Content = "A Large-Scale Occluded Facial Expression Recognition Dataset for Deep Learning Research"
 
   # Social links (customize as needed)
   [[params.socialIcons]]
@@ -58,7 +58,7 @@ buildExpired = false
 
   [[params.socialIcons]]
     name = "email"
-    url = "202522081112@std.uestc.edu.cn"
+    url = "mailto:202522081112@std.uestc.edu.cn"
 
 # Markup settings
 [markup]
