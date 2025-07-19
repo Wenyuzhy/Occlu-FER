@@ -21,15 +21,15 @@ Send an E-mail to **Huiyu Zhai** ([202522081112@std.uestc.edu.cn](mailto:2025220
 
 **Subject**: Application to download the OCCLU-FER Database
 
-**Name**: <your first and last name>
-**Affiliation**: <University where you work>
-**Department**: <your department>
-**Position**: <your job title>
-**Email**: <must be the email at the above mentioned institution>
+**Name**: &lt;your first and last name&gt;<br>
+**Affiliation**: &lt;University where you work&gt;<br>
+**Department**: &lt;your department&gt;<br>
+**Position**: &lt;your job title&gt;<br>
+**Email**: &lt;must be the email at the above mentioned institution&gt;
 
-I have read and agree to the terms and conditions specified in the OCCLU-FER database webpage.
-This database will only be used for research purposes.
-I will not make any part of this database available to a third party.
+I have read and agree to the terms and conditions specified in the OCCLU-FER database webpage.<br>
+This database will only be used for research purposes.<br>
+I will not make any part of this database available to a third party.<br>
 I'll not sell any part of this database or make any profit from its use.
 
 </div>
